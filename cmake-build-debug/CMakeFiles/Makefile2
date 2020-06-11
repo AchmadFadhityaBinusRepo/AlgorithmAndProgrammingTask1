@@ -43,10 +43,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Krisna Dhipa\CLionProjects\Task1_C"
+CMAKE_SOURCE_DIR = "E:\OneDrive - Bina Nusantara University\Binus\Present\Mata Kuliah\Semester 1\Algorithm and Programming\Individual Task\Task 1\Task1_C"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Krisna Dhipa\CLionProjects\Task1_C\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\OneDrive - Bina Nusantara University\Binus\Present\Mata Kuliah\Semester 1\Algorithm and Programming\Individual Task\Task 1\Task1_C\cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -73,14 +73,14 @@ clean: CMakeFiles/Task1_C.dir/clean
 CMakeFiles/Task1_C.dir/all:
 	$(MAKE) -f CMakeFiles\Task1_C.dir\build.make CMakeFiles/Task1_C.dir/depend
 	$(MAKE) -f CMakeFiles\Task1_C.dir\build.make CMakeFiles/Task1_C.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Krisna Dhipa\CLionProjects\Task1_C\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Task1_C"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive - Bina Nusantara University\Binus\Present\Mata Kuliah\Semester 1\Algorithm and Programming\Individual Task\Task 1\Task1_C\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Task1_C"
 .PHONY : CMakeFiles/Task1_C.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Task1_C.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Krisna Dhipa\CLionProjects\Task1_C\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive - Bina Nusantara University\Binus\Present\Mata Kuliah\Semester 1\Algorithm and Programming\Individual Task\Task 1\Task1_C\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Task1_C.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Krisna Dhipa\CLionProjects\Task1_C\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive - Bina Nusantara University\Binus\Present\Mata Kuliah\Semester 1\Algorithm and Programming\Individual Task\Task 1\Task1_C\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/Task1_C.dir/rule
 
 # Convenience name for target.

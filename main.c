@@ -135,8 +135,3 @@ void showResult(Karyawan karyawan){
     printf("\n\tHonor Lembur: Rp %0.2f", karyawan.gaji.bonusLembur);
     printf("\nTotal Gaji Rp: %0.2f", karyawan.gaji.gajiTotal);
 }
-
-int main (){
-    int angka = 123; // contoh assignment operator, variabel angka akan memiliki nilai 123
-    return 0;
-}

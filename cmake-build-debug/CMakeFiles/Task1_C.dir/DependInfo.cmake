@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Krisna Dhipa/CLionProjects/Task1_C/main.c" "C:/Users/Krisna Dhipa/CLionProjects/Task1_C/cmake-build-debug/CMakeFiles/Task1_C.dir/main.c.obj"
+  "E:/OneDrive - Bina Nusantara University/Binus/Present/Mata Kuliah/Semester 1/Algorithm and Programming/Individual Task/Task 1/Task1_C/main.c" "E:/OneDrive - Bina Nusantara University/Binus/Present/Mata Kuliah/Semester 1/Algorithm and Programming/Individual Task/Task 1/Task1_C/cmake-build-debug/CMakeFiles/Task1_C.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
