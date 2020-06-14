@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/OneDrive - Bina Nusantara University/Binus/Present/Mata Kuliah/Semester 1/Algorithm and Programming/Individual Task/Task 1/Task1_C/main.c
+stdio.h
+-
+ctype.h
+-
+string.h
+-
+

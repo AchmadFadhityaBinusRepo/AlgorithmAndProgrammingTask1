@@ -20,7 +20,7 @@ typedef struct {
 
 typedef struct {
     char nama[255];
-    char pendidikan[5];
+    char pendidikan[3];
     int golongan;
     float jumlahJamKerja;
     Gaji gaji;
@@ -41,6 +41,8 @@ void showResult(Karyawan karyawan);
 // --- Main Program
 int main() {
     Karyawan karyawan;
+
+    printf("**** PROGRAM HITUNG GAJI KARYAWAN ****\n");
     inputKaryawan(&karyawan);
     karyawan.gaji = hitungGaji(karyawan.pendidikan, karyawan.golongan, karyawan.jumlahJamKerja);
     showResult(karyawan);
@@ -113,15 +115,15 @@ Gaji hitungGaji(char *pendidikan, int golongan, float jumlahJamKerja) {
 }
 
 void inputKaryawan(Karyawan *karyawan){
-    printf("**** PROGRAM HITUNG GAJI KARYAWAN ****\n");
     printf("Nama Karyawan:");
-    scanf("%255s", &(karyawan->nama));
+    scanf("%[^\n]%*c", karyawan->nama);
 
     printf("Golongan Jabatan:");
     scanf("%d", &(karyawan->golongan));
 
+    fflush(stdin);
     printf("Pendidikan:");
-    scanf("%5s", &(karyawan->pendidikan));
+    scanf("%[^\n]%*c", karyawan->pendidikan);
     toUpperString(karyawan->pendidikan); //menghindari perbedaan case saat input
 
     printf("Jumlah jam kerja:\t");
